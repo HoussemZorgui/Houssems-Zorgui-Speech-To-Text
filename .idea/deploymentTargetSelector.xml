@@ -2,7 +2,7 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="𝙷𝙾𝚄𝚂𝚂𝙴𝙼_𝚉𝙾𝚁𝙶𝚄𝙸_𝚂𝙿𝙴𝙴𝙲𝙷__𝚃𝙾__𝚃𝙴𝚇𝚃.app">
+      <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
       </SelectionState>
     </selectionStates>
