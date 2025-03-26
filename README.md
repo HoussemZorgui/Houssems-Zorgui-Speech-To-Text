@@ -8,7 +8,33 @@ GitHub Repo: [Houssems-Zorgui-Speech-To-Text](https://github.com/HoussemZorgui/H
 
 ### 🚀 **Project Description**
 
-The app **𝙷𝙾𝚄𝚂𝚂𝙴𝙼_𝚉𝙾𝚁𝙶𝚄𝙸_𝚂𝙿𝙴𝙴𝙲𝙷 _𝚃𝙾 _𝚃𝙴𝚇𝚃** allows users to communicate with an AI chatbot using both voice and text commands. Through the integration of **Speech-to-Text (STT)**, **Text-to-Speech (TTS)**, and **OpenAI GPT** API, the app provides a smooth, interactive experience.
+The app **𝙷𝙾𝚄𝚂𝚂𝙴𝙼_𝚉𝙾𝚁𝙶𝚄𝙸_𝚂𝙿𝙴𝙴𝙲𝙷 _𝚃𝙾 _𝚃𝙴𝚇𝚃** 
+
+This Android application, built with Kotlin and Jetpack Compose, provides useful features for Speech-to-Text (STT) and Text-to-Speech (TTS).
+
+Text-to-Speech (TTS) Feature
+The Text-to-Speech API, available through the android.speech.tts package, allows the app to convert text into speech without requiring Google services.
+Users can:
+
+Input text using the keyboard in a text box.
+
+Import a saved text file for reading aloud.
+
+Adjust the voice pitch and speech rate to their preference.
+
+Listen to the synthesized text through the device's speaker.
+
+Speech-to-Text (STT) Feature
+Google’s Speech Recognition service is integrated using an Intent based API, allowing the app to convert speech into text.
+Users can:
+
+Record their voice through the device’s microphone.
+
+View the captured speech converted into text on the screen.
+
+Save the converted text into a .txt file.
+
+Access and read the saved files later.
 
 ### **Key Features**:
 - **Speech-to-Text (STT)**: Converts user’s speech to text for easy interaction.
