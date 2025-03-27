@@ -39,6 +39,7 @@ android {
     }
 }
 
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -56,4 +57,19 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Nouvelles dépendances Accompanist
+    implementation(libs.accompanist.systemuicontroller)
+    implementation(libs.accompanist.permissions)
+
+    // Navigation
+    implementation(libs.navigation.compose)
+    implementation(libs.accompanist.navigation.animation)
+
+    // Material icons
+    implementation(libs.material.icons.extended)
+
+    // AppCompat
+    implementation(libs.appcompat)
 }
+

@@ -83,3 +83,4 @@ class MainActivity : ComponentActivity() {
             speechInput.value = result?.get(0).toString()
         }
     }
+}
