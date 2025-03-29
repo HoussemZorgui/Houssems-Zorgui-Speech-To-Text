@@ -19,7 +19,7 @@ import androidx.compose.material.Surface
 import androidx.compose.runtime.SideEffect
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.ui.Modifier
-import com.denicks21.speechandtext.navigation.NavGraph
+import com.paulson_partners.navigation.NavGraph
 import com.denicks21.speechandtext.ui.theme.SpeechAndTextTheme
 import com.google.accompanist.navigation.animation.rememberAnimatedNavController
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
